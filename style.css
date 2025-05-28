@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+  }
+  
+  .main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Carousel styles */
+  .carousel {
+    overflow-x: scroll;
+    white-space: nowrap;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .carousel-track img {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+  
+  /* Card styles */
+  .cardc {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .watch-btn {
+    padding: 10px 15px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .watch-btn:hover {
+    background-color: #16337d;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid white;
+    font-size: 16px;
+  }
+  
